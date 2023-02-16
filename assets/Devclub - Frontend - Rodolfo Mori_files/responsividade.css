@@ -1,0 +1,86 @@
+@media (max-width: 800px) {
+    .main-1 {
+        background-image: url('assets/bg-1-mobile.webp');
+    }
+
+    .main-1-largura {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .div-2-main-1 {
+        margin-right: 0px;
+    }
+
+    .div-1-main-1 {
+        text-align: center;
+    }
+
+    .div-img {
+        padding-top: 10px;
+    }
+
+    .botao {
+        width: 70%;
+    }
+
+    .img-cs {
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .main-2-largura {
+        padding: 10px;
+    }
+
+    .p-1-main-1,
+    .p-2-main-1 {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .div-video,
+    .div-video-contrario {
+        padding: 10px;
+    }
+
+    .p-4-main-3 {
+        padding: 10px;
+    }
+
+    .img-rodolfo-main-5 {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:714px) {
+
+    .div-3-main-6,
+    .div-3-main-6-ultimo,
+    .div-3-main-6-ultimo-carreira,
+    .div-4-main-6-icones{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .div-checks{
+        justify-content: center;
+        align-content: center;
+    }
+    .div-centro{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bg-main-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
