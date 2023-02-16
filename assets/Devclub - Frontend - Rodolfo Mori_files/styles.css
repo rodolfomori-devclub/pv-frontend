@@ -1,0 +1,467 @@
+@font-face {
+    font-family: 'Sora';
+    font-display: swap;
+    src: url("./assets/fonts/Sora/Sora-Thin.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Bold';
+    font-display: swap;
+    src: url("./assets/fonts/Sora/Sora-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Regular';
+    font-display: swap;
+    src: url("./assets/fonts/Sora/Sora-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Medium';
+    font-display: swap;
+    src: url('./assets/fonts/Sora/Sora-Medium.ttf');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-1 {
+    background-image: url('assets/bg-main-1.webp');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: #000000;
+    /* height: 100vh; */
+}
+.main-1-largura, .main-2-largura{
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-img{
+    padding-top: 148px;
+}
+.img-logo{
+    width: 150px;
+    height: 150px;
+}
+.p-1-main-1{
+    max-width: 500px;
+    color: #35DC02;
+    font-family: 'Sora-Bold';
+    font-size: 36px;
+}
+.p-2-main-1,
+.p-2-main-7{
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-family: 'Sora';
+    max-width: 500px;
+    padding-top: 10px;
+}
+.p-3-main-1{
+    color: #FFFFFF;
+    font-family: 'Sora';
+    font-size: 17px;
+    padding-top: 20px;
+}
+.botao {
+    transition: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    background-color: #35DC02;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 29px -9px rgb(207 255 0 / 66%);
+    padding: 12px 90px 12px 90px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    }
+
+.botao p {
+font-family: 'Sora-Bold';
+font-size: 15px;
+color: #000;
+}
+
+.botao:hover {
+transform: scale(1.05);
+animation: none;
+}
+
+@keyframes tamanho {
+0% {
+    transform: scale(1);
+}
+
+50% {
+    transform: scale(1.05);
+}
+
+100% {
+    transform: scale(1);
+}
+}
+.img-cs{
+    width: 41%;
+    opacity: 0.6;
+}
+.div-2-main-1{
+    margin-right: -84px;    
+}
+
+.main-2{
+    background-color: #000A1E;
+}
+.main-2-largura{
+    flex-direction: column;
+}
+.p-principal, 
+.p-2-main-3,
+.p-3-main-3{
+    color: #35DC02;
+    font-family: 'Sora-Medium';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.div-tudo-main-2 {
+    margin: 0 auto;
+}
+.p-1-main-2 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Sora-Medium';
+    letter-spacing: 1.7px;
+    padding-left: 20px;
+}
+.p-2-main-2 {
+    color: #fff;
+    font-family: 'Sora';
+    padding: 10px 20px;
+}
+.div-2-main-2, .div-2-main-2-parte-2 {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.div-2-main-2,
+.div-2-main-2-parte-3 {
+    background-color: #0D559D;
+    display: flex;
+    flex-direction: row;
+}
+.img-main-2{
+    max-width: 120px;
+}
+.div-2-main-2-parte-2,
+.div-2-main-2-parte-3 {
+    background-color: #0D559D;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.div-3-main-2-parte-2 {
+    /* max-width: 120px; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: flex-end;
+}
+.main-3{
+    background-color: #000512;
+    padding-bottom: 30px;
+}
+.p-1-main-3{
+    color: #FFFFFF;
+    font-family: 'Sora';
+    font-size: 22px;
+}
+.div-img-main-3{
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   display: flex;
+   margin: 0 auto;
+}
+.main-1-largura-main-3{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.p-1-main-3,
+.p-4-main-3{
+    color: #FFFFFF;
+    font-family: 'Sora';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+.p-2-main-3{
+    padding-top: 10px;
+    font-family: 'Sora-Bold';
+    font-size: 40px;
+}
+.p-4-main-3{
+    padding-top: 10px;
+}
+.div-3-main-6,
+.div-3-main-6-ultimo,
+.div-3-main-6-ultimo-carreira {
+    background-image: linear-gradient(180deg, #4870BF08 27%, #4870BF1F 150%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 12px;
+    margin-bottom: 60px;
+}
+.div-3-main-6-ultimo,
+.div-3-main-6-ultimo-carreira {
+    margin-bottom: 30px;
+}
+.div-3-main-6-ultimo-carreira {
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 50px 20px 50px;
+}
+
+.check-ok {
+    width: 12px;
+}
+
+.bg-main-6 {
+    margin-bottom: 25px;
+}
+
+.div-4-main-6-icones {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+    padding-left: 20px;
+}
+
+.div-4-main-6-icones img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.p-1-main-6,
+.p-2-main-6 {
+    padding-top: 20px;
+    margin-bottom: 7px;
+    color: #fff;
+    font-family: 'Sora-Bold';
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+
+.p-2-main-6 {
+    padding-top: 5px;
+    margin-bottom: 20px;
+    color: #244d9f;
+    font-family: 'Sora-Medium';
+    font-size: 20px;
+}
+
+.div-checks {
+    display: flex;
+    padding-left: 20px;
+}
+
+.p-1-div-checks {
+    font-family: 'Sora';
+    color: rgb(204, 197, 197);
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.main-4{
+    background-color: #000A1E;
+}
+.div-video,
+.div-video-contrario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.p-1-main-4{
+    color: #35DC02;
+    font-family: 'Sora-Medium';
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.p-2-main-4{
+    color: #D3D3D3;
+    font-family: 'Sora';
+    font-size: 17px;
+    padding: 12px;
+    max-width: 600px;
+}
+.p-1-main-4,
+.p-2-main-4{
+    margin-left: 40px;
+}
+.div-video-contrario{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: row-reverse;
+}
+.main-5{
+    background-color: #021231;
+}
+.img-rodolfo-main-5{
+    max-width: 500px;
+    max-height: 550px;
+}
+.check {
+    width: 5px;
+}
+.div-2-main-5-icones img {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.p-1-main-5, 
+.p-1-main-6{
+    color: #35DC02;
+    font-family: 'Sora-Medium';
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.div-checks-main-5{
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    
+}
+.p-1-div-checks-main-5 {
+    font-family: 'Sora';
+    color: rgb(204, 197, 197);
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.main-6{
+    background-color: #09173B;
+}
+.rodolfo-main-6{
+    max-width: 500px;
+    max-height: 500px;
+}
+.p-1-main-6{
+    padding-left: 0px;
+}
+
+.main-7{
+    background-color: #00091A;
+}
+.p-2-main-7{
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.p-1-main-6{
+    font-size: 25px;
+}
+.p-ultimo-main-7{
+    color: #35DC02;
+    padding-top: 10px;
+    font-family: 'Sora';
+    font-size: 25px;
+}
+.p-ultimo-main-7 strong{
+    color: #fff;
+    padding-top: 10px;
+    font-family: 'Sora-Bold';
+    font-size: 45px; 
+}
+.main-8,
+.main-9{
+    background-color: #021231;
+}
+.div-img-main-8{
+    display: flex;
+    flex-direction: column;
+}
+.main-8 img{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.main-9{
+    background-color: #021131;
+}
+.p-1-main-9{
+    text-align: center;
+}
+.botao-pergunta{
+    width: 100%;
+    color: #CFFF00;
+    background-color: #344057;
+    border: 0px;
+    font-size: 20px;
+    margin-top: 7px;
+    text-align: left;
+    padding: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagem-pergunta{
+    margin-left: 10px;
+}
+.pergunta{
+    width: 100%;
+    background-color: #344057;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    font-size: 16px;
+    color: #FFF;
+}
+.pergunta p{
+    font-size: 16px;
+}
+.p-resposta{
+    font-size: 16px;
+    font-family: 'Sora';
+    max-width: 750px;
+}
+footer {
+    background-color: #0a0a0a;
+    height: 100px;
+}
+
+.div-footer {
+    width: 100%;
+}
+
+.div-footer p {
+    text-align: center;
+    color: #fff;
+    padding: 35px;
+    font-size: 15px;
+    font-family: 'Sora';
+}
